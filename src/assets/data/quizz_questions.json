@@ -57,10 +57,10 @@
       }
     ],
     "results":{
-      "M": "Você seria uma Maçã",
-      "K": "Você seria um Kiwi",
-      "J": "Você seria uma Jaca",
-      "P": "Você seria um Pêssego",
-      "G": "Você seria uma Manga"
+      "M": {"frase": "Você seria uma Maçã", "image": "../../../assets/images/Maca.png"}, 
+      "K": {"frase": "Você seria um Kiwi", "image": "../../../assets/images/Kiwi.png"}, 
+      "J": {"frase": "Você seria uma Jaca", "image": "../../../assets/images/Jaca.png"}, 
+      "P": {"frase": "Você seria um pessego", "image": "../../../assets/images/Pessego.png"},
+      "G": {"frase": "Você seria uma Manga", "image": "../../../assets/images/Manga.png"} 
     }
   }

@@ -12,7 +12,7 @@ export class QuizzComponent implements OnInit {
   questions:any;
   questionSelected:any;
   answers:string[] = [];
-  answerSelected:string = "";
+  answerSelected:any = "";
   questionIndex:number = 0;
   questionMaxIndex:number = 0;
   finished:boolean = false;
@@ -49,7 +49,7 @@ export class QuizzComponent implements OnInit {
 
   async checkResult(answers:string[]){
     const result = answers.reduce((previous, current, i, arr) => {
-      if(arr.filter(item => item === previous).length > arr.filter(item => item === current). length){
+      if(arr.filter(item => item === previous).length > arr.filter(item => item === current).length){
          return previous
       }else {
          return current
