@@ -101,3 +101,9 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 500px){
+    .btn-option {
+        width: 100%;
+    }
+}
